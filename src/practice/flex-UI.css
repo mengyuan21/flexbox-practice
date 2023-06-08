@@ -1,19 +1,30 @@
+.box {
+    display: flex;
+    justify-content: center;
+}
+
 .container {
+    width: 70%;
+    background-color: khaki ;
 }
 
 .navigation {
+    background-color: blanchedalmond;
+}
 
+.navigationItems {
 }
 
 .icon {
     height: 30px;
+    align-self: center;
 }
 
 .searchBar{
-
+    background-color: royalblue;
 }
 
-.searchbarButton {
+.searchbarButtons {
 
 }
 
@@ -22,16 +33,20 @@
 }
 
 .propertyType {
-
+    background-color: aquamarine;
 }
 
 .propertyTypeTitle {
 
 }
 
+.propertyItems {
+
+}
+
 .propertyItem {
     height: 100px;
-    width: 100px;
+    width: 15%;
     background-color: #dfdfdf
 }
 
