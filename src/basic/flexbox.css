@@ -1,0 +1,93 @@
+.flexbox-container {
+  display: flex;
+  background-color: aquamarine;
+
+
+  /*1. flex-direction -- The default direction is row, if you need to display items in column, you can set flex-direction to: */
+  flex-direction: row;
+
+  /*2. flex-wrap -- Used for flexbox that have multi lines items in containers, to align items based on multi lines display: */
+  flex-wrap: wrap;
+  height: 1000px;
+
+  /*3. flex-flow -- Shorthand for the flex-direction and flex-wrap */
+  /*flex-flow: column wrap;*/
+
+  /*4. justify-content -- Layout for items in this container based on main axis：*/
+  /*justify-content: space-between;*/
+  /*justify-content: start;*/
+  /*justify-content: space-around;*/
+
+  /*5. align-items -- Layout for items in this container based on the cross axis:*/
+  align-items: flex-start;
+  /*align-items: center;*/
+  /*align-items: stretch;*/
+
+  /*6. align-content --  Aligns container’s lines within when there is extra space in the cross-axis */
+  align-content: start;
+
+  /*7. gap, row-gap, column-gap --  Aligns container’s lines within when there is extra space in the cross-axis */
+  gap: 10px;
+  /*gap: 10px 20px; !* row-gap column gap *!*/
+  /*row-gap: 10px;*/
+  /*column-gap: 20px;*/
+
+}
+
+.flexbox-item {
+  width: 200px;
+  margin: 10px;
+  border: 3px solid #333;
+  background-color: #dfdfdf;
+}
+
+.flexbox-item-1 {
+  min-height: 100px;
+  /*1. order -- controls the order in which they appear in the flex container.*/
+  /*NOT RECOMMENDED, but if you want to change the order of your items without modifying the HTML, you can use order (this need to apply on every items inside this container):*/
+  /*order: 5*/
+
+  /*2. flex-grow -- the ability for a flex item to grow*/
+  /*If you want your item to grow automatically, you can use (this can apply on multi items), it will take all the left spaces:*/
+  flex-grow: 10; /* default 0 */
+
+  /*3. flex-shrink -- If you don't want your item to be shrink when flex auto change your item's size, you can use:*/
+  flex-shrink: 5;
+
+  /*4. align-self -- If you want your item to have it's own align without effect other items in the container, you can set align-self to it: */
+  /*align-self: center;*/
+
+  /*5. writing-mode: item wording;*/
+  /*writing-mode: vertical-lr;*/
+
+  /*order: 2;*/
+}
+
+.flexbox-item-2 {
+  min-height: 200px;
+
+  /*order: 6;*/
+}
+
+.flexbox-item-3 {
+  min-height: 300px;
+
+  /*order: 1;*/
+}
+
+.flexbox-item-4 {
+  min-height: 300px;
+
+  /*order: 3;*/
+}
+
+.flexbox-item-5 {
+  min-height: 300px;
+
+  /*order: 4;*/
+}
+
+.flexbox-item-6 {
+  min-height: 300px;
+  /*order: 5;*/
+}
