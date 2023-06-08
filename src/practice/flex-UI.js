@@ -6,7 +6,7 @@ function DemoUI() {
             <div className={"container"}>
                 <div className={"navigation"}>
                     <img src="images/icon.png" alt='icon' className={"icon"}/>
-                    <div>
+                    <div className={"navigationItems"}>
                         <div> Find property </div>
                         <div> Invest </div>
                         <div> Short-term </div>
@@ -17,7 +17,7 @@ function DemoUI() {
                     <button> Join </button>
                 </div>
                 <div className={"searchBar"}>
-                    <div className={"searchbarButton"}>
+                    <div className={"searchbarButtons"}>
                         <button> Buy </button>
                         <button> Lease </button>
                         <button> Sold </button>
@@ -27,12 +27,15 @@ function DemoUI() {
                 </div>
                 <div className={"propertyType"}>
                     <div className={"propertyTypeTitle"}> Explore by property type </div>
-                    <div className={"propertyItem"}> item 1 </div>
-                    <div className={"propertyItem"}> item 2 </div>
-                    <div className={"propertyItem"}> item 3 </div>
-                    <div className={"propertyItem"}> item 4 </div>
-                    <div className={"propertyItem"}> item 5 </div>
-                    <div className={"propertyItem"}> item 6 </div>
+                    <div className={"propertyItems"}>
+                        <div className={"propertyItem"}> item 1 </div>
+                        <div className={"propertyItem"}> item 2 </div>
+                        <div className={"propertyItem"}> item 3 </div>
+                        <div className={"propertyItem"}> item 4 </div>
+                        <div className={"propertyItem"}> item 5 </div>
+                        <div className={"propertyItem"}> item 6 </div>
+                    </div>
+
                 </div>
             </div>
         </div>

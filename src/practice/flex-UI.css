@@ -1,37 +1,71 @@
+.box {
+    display: flex;
+    justify-content: center;
+}
+
 .container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 50px 10px;
 }
 
 .navigation {
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    background-color: blanchedalmond;
+}
 
+.navigationItems {
+    display: flex;
+    gap: 10px;
+    align-self: center;
 }
 
 .icon {
     height: 30px;
+    align-self: center;
 }
 
 .searchBar{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    background-color: royalblue;
 }
 
-.searchbarButton {
-
+.searchbarButtons {
+    display: flex;
+    justify-content: center;
 }
 
 .searchbarInput{
-
+    max-width: 200px;
+    align-self: center;
 }
 
 .propertyType {
-
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: aquamarine;
 }
 
 .propertyTypeTitle {
 
 }
 
+.propertyItems {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
 .propertyItem {
     height: 100px;
-    width: 100px;
+    width: 15%;
     background-color: #dfdfdf
 }
 
