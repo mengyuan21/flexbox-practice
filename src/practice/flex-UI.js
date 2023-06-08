@@ -1,16 +1,26 @@
-import styles from './flex-UI.css';
+import './flex-UI.css';
 
 function DemoUI() {
     return (
-        <div>
-            <div className={styles.container}>
-                <div className={styles.navigation}>
-                    <div> item 1 </div>
-                    <div> item 2 </div>
-                    <div> item 3 </div>
+        <div className={"box"}>
+            <div className={"container"}>
+                <div className={"navigation"}>
+                    <img src="images/icon.png" alt='icon' className={"icon"}/>
+                    <div>
+                        <div> Find property </div>
+                        <div> Invest </div>
+                        <div> Short-term </div>
+                        <div> Find agencies </div>
+                        <div> News </div>
+                    </div>
                 </div>
-                <div className={styles.searchBar}> searchBar </div>
-                <div className={styles.propertyType}>
+                <div className={"searchBar"}>
+                    <div> Buy </div>
+                    <div> Lease </div>
+                    <div> Sold </div>
+                    <div> Leased </div>
+                </div>
+                <div className={"propertyType"}>
                     <div> item 1 </div>
                     <div> item 2 </div>
                     <div> item 3 </div>
