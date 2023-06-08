@@ -1,15 +1,37 @@
 .container {
-    background-color: #dfdfdf
 }
 
 .navigation {
 
 }
 
+.icon {
+    height: 30px;
+}
+
 .searchBar{
+
+}
+
+.searchbarButton {
+
+}
+
+.searchbarInput{
 
 }
 
 .propertyType {
 
 }
+
+.propertyTypeTitle {
+
+}
+
+.propertyItem {
+    height: 100px;
+    width: 100px;
+    background-color: #dfdfdf
+}
+
