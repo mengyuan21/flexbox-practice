@@ -2,7 +2,6 @@
   display: flex;
   background-color: aquamarine;
 
-
   /*1. flex-direction -- The default direction is row, if you need to display items in column, you can set flex-direction to: */
   flex-direction: row;
 
